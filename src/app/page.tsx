@@ -95,7 +95,7 @@ export default function Home() {
       {/* Image Slide */}
       <div
         {...swipeHandlers}
-        className="relative w-full h-[780px] sm:w-[800px] sm:h-[640px] overflow-hidden"
+        className="relative w-full h-[700px] sm:w-[800px] sm:h-[640px] overflow-hidden"
             >
         <Image
           src={images[currentIndex]}
@@ -122,7 +122,7 @@ export default function Home() {
       </div>
 
       {/* Progress Indicator */}
-      <div className="absolute top-180 w-full max-w-[800px] px-4
+      <div className="absolute top-160 w-full max-w-[800px] px-4
       sm:relative sm:top-1
       ">
         <div className="flex items-center justify-between text-sm text-gray-400 mb-2">
